@@ -1,0 +1,86 @@
+/* || Variables */
+:root {
+  --color-blue-light: #8ecae6;
+  --color-blue-regular: #219ebc;
+  --color-blue-darker: #023047;
+  --color-yellow: #be8a05;
+  --color-orange: #9e5501;
+}
+
+/* || Reset */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+/* || Global styles */
+
+body {
+  background-color: var(--color-blue-darker);
+  color: white;
+}
+
+/* || Utils */
+.wrapper {
+  width: 90%;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* || Nrs */
+
+.nr {
+  border: 2px solid var(--color-orange);
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: 55px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.generate-btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  background: var(--color-orange);
+  color: white;
+  border: none;
+}
+
+.generate-btn:hover,
+.generate-btn:focus {
+  background-color: var(--color-yellow);
+}
+
+/* || Form */
+label,
+select {
+  display: block;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+select {
+  padding: 0.25rem 1rem;
+}
+
+form {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
