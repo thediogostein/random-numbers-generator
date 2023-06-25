@@ -1,1 +1,1 @@
-# random-numbers-generator
+# Generate 6 random numbers at once
